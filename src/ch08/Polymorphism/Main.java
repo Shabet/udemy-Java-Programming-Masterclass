@@ -4,10 +4,25 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-//        Movie theMovie = new Movie("Star Wars");
-//        Movie theMovie = new Adventure("Star Wars");
-//        Movie theMovie = Movie.getMovie("Adventure", "Star Wars");
-//        theMovie.watchMovie();
+        Movie theMovie = new Movie("Star Wars");
+        theMovie.watchMovie();
+
+        Movie theMovie2 = new Adventure("Indiana Jones");
+        theMovie2.watchMovie();
+
+        Movie theMovie3 = new Comedy("Home Alone");
+        theMovie3.watchMovie();
+
+        Movie theMovie4 = new ScienceFiction("Star Trek");
+        theMovie4.watchMovie();
+        System.out.println("---------------------------------------");
+
+        Movie theMovie5 = Movie.getMovie("Adventure", "Star Wars");
+        theMovie5.watchMovie();
+
+        Movie theMovie6 = Movie.getMovie("Science", "Star Wars");
+        theMovie6.watchMovie();
+        System.out.println("---------------------------------------");
 
         Scanner s = new Scanner(System.in);
         while (true) {
