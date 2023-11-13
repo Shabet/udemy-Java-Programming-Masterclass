@@ -1,8 +1,7 @@
-package ch10.coding01_ArrayListChllange;
+package ch10.coding01_ArrayListChallenge;
 
 import java.util.ArrayList;
 import java.util.Comparator;
-import java.util.List;
 import java.util.Scanner;
 
 public class Main {
