@@ -1,4 +1,4 @@
-package ch10.ex05_LinkedLists;
+package ch10.ex05_LinkedLists_Part1;
 
 import java.util.LinkedList;
 
