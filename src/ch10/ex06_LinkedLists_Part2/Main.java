@@ -1,4 +1,4 @@
-package ch10.ex05_LinkedLists_Part2;
+package ch10.ex06_LinkedLists_Part2;
 
 import java.util.LinkedList;
 import java.util.ListIterator;
