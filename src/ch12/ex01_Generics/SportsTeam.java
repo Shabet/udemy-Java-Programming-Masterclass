@@ -1,4 +1,4 @@
-package ch12.Generics;
+package ch12.ex01_Generics;
 
 import java.util.ArrayList;
 import java.util.List;

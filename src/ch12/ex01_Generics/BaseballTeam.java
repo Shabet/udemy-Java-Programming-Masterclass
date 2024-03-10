@@ -1,4 +1,4 @@
-package ch12.Generics;
+package ch12.ex01_Generics;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -30,7 +30,7 @@ public class BaseballTeam {
     }
 
     public String setScore(int ourScore, int theirScore) {
-        String message = "lost do";
+        String message = "lost to";
         if (ourScore > theirScore) {
             totalWins++;
             message = "beat";
