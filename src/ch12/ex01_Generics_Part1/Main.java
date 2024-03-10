@@ -1,9 +1,6 @@
 package ch12.ex01_Generics_Part1;
 
-interface Player {
-    String name();
-}
-record BaseballPlayer(String name, String position) implements Player {}
+record BaseballPlayer(String name, String position) {}
 
 public class Main {
     public static void main(String[] args) {
