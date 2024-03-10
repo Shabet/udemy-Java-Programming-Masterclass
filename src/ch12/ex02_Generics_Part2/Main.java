@@ -1,7 +1,7 @@
 package ch12.ex02_Generics_Part2;
 
 interface Player {
-    String name();
+
 }
 record BaseballPlayer(String name, String position) implements Player {}
 record FootballPlayer(String name, String position) implements Player {}
